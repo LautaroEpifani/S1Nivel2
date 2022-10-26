@@ -1,0 +1,212 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cajaUno {
+
+    display: flex;
+    justify-content: first baseline;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+    
+    
+    
+    
+}
+
+
+.logo {
+
+   margin-right: 50px;
+    
+}
+
+
+ .navBar {
+
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    margin-top: 40px;
+    
+
+}
+
+.navBar a{
+
+    color: grey;
+    text-decoration: none;
+   
+}
+
+
+.navBar a span{
+
+    margin-left: 4px;
+}
+
+.social {
+
+    display: flex;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.social div{
+
+    margin-right: 20px;
+}
+
+
+
+/* .fondo {
+
+    position: absolute;
+    bottom: 100px;
+    z-index: -1;
+    overflow: hidden;
+    
+} */
+
+
+.fondoTitulo {
+
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    opacity: 0.5;
+    background-color: lightgray;
+    width: 70%;
+    height: 140px;
+    margin: auto;
+}
+
+.titulo {
+
+    
+    
+    
+    color: red;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    margin-left: 80px;
+    
+}
+
+
+
+
+
+.cajaDos {
+
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.cards {
+
+    
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto auto;
+    
+    
+    
+    
+    
+}
+
+
+.cardsA {
+
+    border: 8px solid lightgray;
+    padding: 8px;
+    
+   
+}
+
+
+.cardsB {
+
+    border: 8px solid lightgray;
+    padding: 8px;
+    
+}
+
+.cardsC {
+
+    
+    border: 8px solid lightgray;
+    padding: 8px;
+}
+
+.cardsD {
+
+
+    border: 8px solid lightgray;
+    padding: 8px;
+    
+}
+
+
+h2{
+
+    color: white;
+    background-color: salmon;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.parrafo {
+
+    height: auto;
+    width: 100%;
+    background-color: lightgray;
+    margin-left: 10px;
+    text-align: center;
+    font-size:small;
+    padding: 10px;
+    
+}
+
+
+.textoFondo {
+
+    background-color: lightgray;
+    grid-column: 1/3;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+
+
+footer {
+
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    text-align: center;
+}
+
+footer div {
+
+    display: flex;
+    justify-content: space-between;
+    width: 10px;
+    height: 50px;
+    background-color: lightgrey;
+}
